@@ -2,3 +2,4 @@ Commands:
 > ng new _appName_
 > ng serve --open
 > ng generate component _componentName_
+> ng generate service _serviceName_

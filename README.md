@@ -1,6 +1,6 @@
 # Angular Tour of Heroes Tutorial
 
-This repository contains the implementation of the Angular Tour of Heroes tutorial. This project serves as a hands-on practice to review core Angular concepts and understand the benefits of using Angular in modern web development, focusing mainly on keeping my Angular knowledge up to date..
+This repository contains the implementation of the [Angular Tour of Heroes](https://angular.io/tutorial/tour-of-heroes) guide. This project serves as a hands-on practice to review core Angular concepts and understand the benefits of using Angular in modern web development, focusing mainly on keeping my Angular knowledge up to date..
 
 ## Project Overview
 
@@ -14,7 +14,7 @@ The Tour of Heroes app is a tutorial application built with Angular that include
 - **Routing**: Navigate between different views.
 - **Data Binding**: Demonstrates the use of two-way data binding.
 - **Services**: Use services to manage the hero data and message logs.
-- **Asynchronous Programming**: Fetch hero data asynchronously.
+- **Asynchronous Programming**: Fetch hero data asynchronously using Reactive Extensions Library (RxJS).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
 
