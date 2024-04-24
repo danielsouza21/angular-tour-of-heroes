@@ -1,0 +1,4 @@
+Commands:
+> ng new _appName_
+> ng serve --open
+> ng generate component _componentName_

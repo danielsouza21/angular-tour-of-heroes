@@ -1,0 +1,5 @@
+-> Usar o Route para algo
+-> Usar Redux para algo
+-> Usar Injeção de dependencia para algo 
+-> Usar Input/Output para algo
+-> Usar input do component, tipo "<app-root>Loading...</app-root>"
