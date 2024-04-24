@@ -10,7 +10,10 @@ import {
 } from '@angular/common';
 
 import { Hero } from '../../hero-interface';
+
+import { MessageService } from '../../services/message.service';
 import { HeroDetailComponent } from '../hero-detail/hero-detail.component';
+
 import { HEROES_LIST_MOCK } from '../../mock-heroes';
 
 @Component({
@@ -29,7 +32,7 @@ import { HEROES_LIST_MOCK } from '../../mock-heroes';
 })
 
 export class HeroesComponent {
-  constructor(private heroService: HeroService) { //Singleton instance of HeroService with DI
+  constructor(private heroService: HeroService, private messageService: MessageService) { //Singleton instance of services with DI
     /* 
      The constructor shouldn't do anything. 
      It certainly shouldn't call a function that makes HTTP requests 
@@ -65,5 +68,6 @@ export class HeroesComponent {
   onSelect(hero: Hero): void {
     //I could use shallow copy to avoid changes the heroes array
     this.selectedHero = hero; 
+    this.messageService.add(`HeroesComponent: Selected hero id = ${hero.id}`);
   }
 }

@@ -22,7 +22,7 @@ export class HeroService {
       delay(randomDelay),
       tap(() => {
         //Tap() allows you to run some code that doesn't affect the outcome of the observable sequence.
-        this.messageService.add(`HeroService: fetched heroes after ${randomDelay}ms`);
+        this.messageService.add(`HeroService: fetched heroes after ${Math.floor(randomDelay)}ms`);
       })
     );
   }
