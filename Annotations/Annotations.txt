@@ -3,3 +3,4 @@ Commands:
 > ng serve --open
 > ng generate component _componentName_
 > ng generate service _serviceName_
+> ng generate module _routingName_ --flat --module=_moduleAppName_
